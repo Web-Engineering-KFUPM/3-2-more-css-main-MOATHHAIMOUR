@@ -35,7 +35,14 @@
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
 
-* {
+:root {
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
